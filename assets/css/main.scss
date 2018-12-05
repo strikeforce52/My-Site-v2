@@ -1,5 +1,49 @@
 ---
 ---
-html, body {
-    background: white;
+body,html {
+    background-color: rgb(13, 212, 185);
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+color: white;
+}
+
+.grey-copy{
+color: grey;
+}
+
+#content-wrapper{
+width:600px;
+}
+
+h1 {font-family: 'Roboto Condensed', sans-serif;
+}
+
+i{
+    font-size:40px
+}
+
+#content-wrapper{
+    width:600px;
+    margin:0 auto;
+}
+
+img {
+display: block;
+margin:0 auto;
+border:5px solid white;
+border-radius: 300px;
+}
+
+    ul {
+        list-style-type: none;
+        margin: 0 auto;
+        width:130px;
+        padding: 0;
+    }
+
+
+ul > li{
+    display: inline;
 }
