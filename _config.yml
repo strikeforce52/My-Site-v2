@@ -1,3 +1,5 @@
 # Build settings
 baseurl: "/My-Site-v2/"
-
+collections: 
+  posts:
+    output: true
